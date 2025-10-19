@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Ulang Tahun!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <div class="container">
+    <h1>happy birthday by >ᴗ< ♡ !!</h1>
+    <p>tap here</p>
+    <a href="amplop.php" class="btn" id="goBtn">tap</a>
+  </div>
+
+  <script>
+    // Simpan sinyal agar musik otomatis main nanti
+    document.getElementById('goBtn').addEventListener('click', () => {
+      sessionStorage.setItem('playMusic', 'true');
+    });
+  </script>
+</body>
+</html>
